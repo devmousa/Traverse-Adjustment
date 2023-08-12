@@ -7,9 +7,6 @@ let bearing = document.getElementById('bearing');
 
 let north = document.getElementById('north');
 let east = document.getElementById('east');
-// let degree = document.getElementById('degree');
-// let minutes = document.getElementById('minutes');
-// let seconds = document.getElementById('seconds');
 
 let fileName = document.getElementById('fileName');
 let fileExtension = document.getElementById('fileExtension');
@@ -163,19 +160,6 @@ addANorthEastBtn.addEventListener('click', async (e) => {
                                 <div class="transparency"></div>
                                 <div class="transparency"></div>
                             </div>`
-    // let resultData = await eel.seeResult()();
-    // container.innerHTML += `<div class="result">${resultData[0][0][0]}</div>
-    // <div class="result">${resultData[0][0][1]}</div>
-    // <div class="azimuth result">°${resultData[0][0][2]} '${resultData[0][0][3]} "${resultData[0][0][4]}</div>
-    // <div class="result">${resultData[0][1][0]}</div>
-    // <div class="result">${resultData[0][1][1]}</div>`
-    
-    // container.innerHTML += `<div class="transparency"></div>
-    // <div class="transparency"></div>
-    // <div class="transparency azimuth"></div>
-    // <div class="sum">${resultData[1]}</div>
-    // <div class="sum">${resultData[2]}</div>`
-
 })
 
 resetBtn.addEventListener('click', async (e) => {
